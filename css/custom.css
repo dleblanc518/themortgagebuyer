@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document for www.TheMortgageBuyer.com */
+/* -------- color guide ----------
+
+#243040 : dark blue
+#0C96A6 : teal 
+#D93E2F : orange red
+#A52522 : dark red
+
+*/
+body {
+  padding-top: 1.2em;
+}
+a:link {
+  color: #0C96A6;
+}
+a:visited {
+  color: #0C96A6;
+}
+a:hover {
+  color: #A52522;
+}
+a:active {
+  color: #D93E2F;
+}
+footer {
+  padding: 2em;
+  margin-top: 3em;
+  border-top: 1px solid #A52522;
+  text-align: center;
+}
+footer article {
+  line-height: 2;
+}
+h1 {
+  color: #A52522;
+}
+h2 {
+  color: #A52522;
+}
+h3 {
+  color: #0C96A6;
+}
+p {
+  font-size: 1.125em;
+}
+.company {
+  padding: 0;
+  margin: 1em;
+}
+.company a:hover {
+  text-decoration: none;
+}
+.company ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h4 {
+  color: #0C96A6;
+}
+h5 {
+  color: #D93E2F;
+}
+h6 {
+  color: #243040;
+}
+.content {
+  padding: 0;
+  margin: 1em;
+  color: #666666;
+}
+.phone {
+  margin-right: 1.5em;
+  color: #0C96A6;
+  font: 1em Arial, Helvetica, sans-serif;
+}
+.icon img {
+  width: 140px;
+  height: 140px;
+}
+dl {
+  margin-top: 20px;
+}
+dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  font-weight: bold;
+  color: #0c96a6;
+}
+dd {
+  margin: 0 15px 10px 110px;
+  padding: 0.5em 0;
+}
+.tmb-list li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.landing {
+  margin: 2em 2em 0em 2em;
+}
+.lxline {
+  padding: 5px 30px;
+}
+/* Index
+-------------------------------------------------- */
+/* Quotes */
+.quoteHome {}
+.quoteHome blockquote {
+  border-left: none;
+  margin: 0;
+}
+.quoteHome blockquote p {
+  font: 1em Georgia, "Times New Roman", Times, serif;
+}
+.quoteHome blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  margin-right: 10px;
+  color: #D93E2F;
+}
+.quoteHome blockquote p:after {
+  content: "\f10e";
+  font-family: 'Fontawesome';
+  margin-left: 10px;
+  color: #D93E2F;
+}
+.homesec {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.tnew {
+  background-color: #85B9BF;
+  margin: 3em;
+  padding: 1em;
+  color: #fff;
+  border-radius: 5px;
+}
+.well {
+  border-radius: 7px;
+}
+.well.mat {
+  background-color: #fff;
+  border-radius: 0;
+  margin: 0;
+}
+.more {
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+}
+.xspace {
+  line-height: 2;
+}
+.private101 {
+  background-color: #243040;
+  margin-top: 1.2em;
+  margin-bottom: 2em;
+  padding: .5em .2em .5em .2em;
+  border-radius: 5px;
+}
+.seo-sec {
+  background-color: #A52522;
+  margin-bottom: 2em;
+  padding: .5em .2em .5em .2em;
+  border-radius: 5px;
+}
+.well.one {
+  background-color: #0C96A6;
+  color: #fff;
+}
+.well.two {
+  background-color: #243040;
+  color: #fff;
+}
+.well.three {
+  background-color: #D93E2F;
+  color: #fff;
+}
+.well.four {
+  background-color: #A52522;
+  color: #fff;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+.navbar-custom {
+  background-color: #A52522;
+  color: #fff;
+  border-radius: 0;
+  min-height: auto;
+  margin-bottom: 0;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #D93E2F;
+}
+.navbar-custom .navbar-brand {
+  color: #D93E2F;
+}
+.navbar-custom .navbar-toggle, .navbar-custom .nav .open > a, .navbar-custom .nav .open > a:hover, .navbar-custom .nav .open > a:focus {
+  background-color: #D93E2F;
+}
+.navbar-custom .icon-bar {
+  background-color: #D93E2F;
+  border: 1px solid #fff;
+}
+/*-- change navbar dropdown color --*/
+.navbar-custom .navbar-nav .open .dropdown-menu > li > a, .navbar-custom .navbar-nav .open .dropdown-menu {
+  color: #243040;
+}
+.navbar-custom .navbar-nav > li.dropdown.active.open > a, .navbar-custom .navbar-nav > li.dropdown.active.open > ul.dropdown-menu a:hover, .navbar-custom .navbar-nav > li.dropdown.open > a, .navbar-custom .navbar-nav > li.dropdown.open > ul.dropdown-menu a:hover {
+  color: #fff;
+  background-color: #D93E2F;
+}
+#home .nav .home a, #offer .nav .offer a, #guarantee .nav .note a, #options .nav .note a, #steps .nav .note a, #value .nav .market a, #top .nav .market a, #benefits .nav .facts a, #protect .nav .facts a, #owner .nav .owner a, #create .nav .owner a, #about .nav .about a, #testimonials .nav .about a {
+  color: #fff;
+  background-color: #D93E2F;
+  text-decoration: none;
+  border-bottom: 0;
+}
+.imgJohn, .imgHeidi {
+  margin-bottom: 0;
+}
+.a52522 {
+  color: #A52522;
+}
+.c243040 {
+  color: #243040;
+}
+.c0c96a6 {
+  color: #0C96A6;
+}
+.d93e2f {
+  color: #D93E2F;
+}
+.c243040 {
+  color: #243040;
+}
+.quoteDesign {
+  color: #243040;
+  font-style: italic;
+}
+.quote {
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1;
+  padding: 1em;
+}
+.quoteTwo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding: 1em 1.4em;
+}
+.quoteThree {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding: 1em 1.2em;
+}
+.quoteFour {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  padding: 1em;
+  text-align: center;
+}
+.quoteWrap {
+  padding: 2em 2em 1em 2em;
+  text-align: center;
+}
+.space {
+  margin-left: 1em;
+}
+/* Form */
+.wrapper {
+  margin: 20px 0;
+  max-width: 580px;
+  float: none;
+  margin: 0 auto;
+}
+fieldset {
+  padding: 5px 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background: #f4f8f8;
+  border: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+label {
+  cursor: pointer;
+  margin: 4px 0;
+  color: #243040;
+  display: block;
+  font-weight: 500;
+}
+input {
+  display: block;
+  width: 90%;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  color: #333;
+  border: 1px solid #5f5f5f;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+.btn-primary {
+  margin-top: 10px;
+  color: white!important;
+  background-color: #0C96A6!important;
+  width: 35%;
+  border: 1px solid #243040;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: white!important;
+  background-color: #A52522!important;
+}
+.form-heading {
+  font-size: 1.75em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: #0C96A6;
+}
+.warning {
+  color: #A52522;
+  font-weight: bold;
+}
+/* Thin out the marketing headings */
+.logo-heading {
+  color: #243040;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.0em;
+  font-weight: 300;
+  clear: both;
+  line-height: 1;
+}
+.featurette-heading {
+  font-size: 3.125em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.new {
+  padding-top: 50px;
+}
+.new-heading {
+  margin-top: 50px;
+  color: #0C96A6;
+  font-size: 3.75em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.notice-heading {
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.why-heading {
+  font-size: 2.5em;
+  font-weight: 300;
+  margin-top: 0;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.highlight-heading {
+  font-size: 1.75em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.buyer-link {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1;
+}
+.create-heading {
+  font-size: 1.25em;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+.tag-heading {
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1;
+}
+.sell-heading {
+  font-size: 1.375em;
+  font-weight: 400;
+  line-height: 1;
+  color: #0C96A6;
+}
+.tip-heading {
+  margin-top: 0;
+  padding-top: 0;
+  color: #A52522;
+  font-size: 1.375em;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+    -------------------------------------------------- */
+@media (max-width: 992px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left, .navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-custom {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .navbar-inner {
+    margin: -30px;
+  }
+  .featurette-heading {
+    font-size: 2em;
+  }
+  .new-heading {
+    font-size: 2em;
+  }
+  .logo-heading {
+    font-size: 1.875em;
+  }
+  .notice-heading {
+    font-size: 1.875em;
+  }
+  .why-heading {
+    font-size: 1.875em;
+  }
+  .highlight-heading, .tnew-heading {
+    font-size: 1.25em;
+  }
+  .form-heading {
+    font-size: 1.25em;
+  }
+	.btn {
+		font-size: 0.85em;
+	}
+}
