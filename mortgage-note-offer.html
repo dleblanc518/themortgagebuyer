@@ -103,31 +103,34 @@
   <div class="row content">If you own a private note, mortgage or contract and would like to receive a no cost, no obligation purchase proposal for it you can contact Heidi directly, or take a few moments to complete our quote request form below. Doing so will allow us to evaluate your investment and present you with our best purchase proposal for it. I appreciate your visit and look forward to hearing from you.</div>
   <div class="row content">
       <div class="wrapper">
-    <form id="feedback" method="post" action="">
+
+    <form  method="POST" action="https://formspree.io/f/manpvgzp" id="feedback">
       <fieldset id="contact_info">
         <h3 class="form-heading">Note Holder Contact Information</h3>
         <div class="form-group">
           <label for="name">Name</label>
-          <input type="text" name="name" class="form-control" id="name" value="" placeholder="first and last name" required="" autofocus="" autocomplete="on">
+          <input type="text" name="Name" class="form-control" id="name" value="" placeholder="first and last name" required="" autofocus="" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="address">Address</label>
-          <input type="text" name="address" class="form-control" id="address" rows="3" value="" placeholder="your mailing address, city, state, zip" required="" autocomplete="on">
+          <input type="text" name="Address" class="form-control" id="address" rows="3" value="" placeholder="your mailing address, city, state, zip" required="" autocomplete="on">
         </div>	  
         <div class="form-group">
           <label for="telephone">Telephone</label>
-          <input type="tel" name="telephone" class="form-control" id="telephone" value="" placeholder="XXX-XXX-XXXX" required="" autocomplete="on">
+          <input type="tel" name="Telephone" class="form-control" id="telephone" value="" placeholder="XXX-XXX-XXXX" required="" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" name="email" class="form-control" id="email" value="" placeholder="you@emailaddress.ext" required="" autocomplete="on">
+          <input type="email" name="Email" class="form-control" id="email" value="" placeholder="you@emailaddress.ext" required="" autocomplete="on">
         </div>
       </fieldset>
+
+
       <fieldset id="collateral_info">
         <h3 class="form-heading">Collateral Property Information</h3>
         <div class="form-group">
                     <label for="type">Type of Property Sold</label>
-          <select name="type" id="type" class="form-control">
+          <select name="Type of Home" id="type" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Single Family Residence"> Single Family Residence </option>
                         <option value="Manufactured Home"> Manufactured Home </option>
@@ -140,19 +143,19 @@
         </div>
         <div class="form-group">
           <label for="description">Description of Property Sold</label>
-          <textarea name="description" class="form-control" id="description" rows="3" placeholder="provide details about the property" required="" autocomplete="on"></textarea>
+          <textarea name="Description of Property" class="form-control" id="description" rows="3" placeholder="provide details about the property" required="" autocomplete="on"></textarea>
         </div>
         <div class="form-group">
           <label for="prop_add">Property Street Address</label>
-          <input name="prop_add" type="text" class="form-control" id="prop_add" rows="3" value="" placeholder="address, city, state, zip" autocomplete="on">
+          <input name="Property Street Address" type="text" class="form-control" id="prop_add" rows="3" value="" placeholder="address, city, state, zip" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="prop_cou">Property County</label>
-          <input name="prop_cou" type="text" class="form-control" id="prop_cou" value="" placeholder="county where property is located" autocomplete="on">
+          <input name="Property County" type="text" class="form-control" id="prop_cou" value="" placeholder="county where property is located" autocomplete="on">
         </div>
         <div class="form-group">
                     <label for="prop_occ">Property Occupancy</label>
-          <select name="prop_occ" id="prop_occ" class="form-control">
+          <select name="Property Occupancy" id="prop_occ" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Owner Occupied"> Owner Occupied </option>
                         <option value="Rental or Leased"> Rental or Leased </option>
@@ -164,26 +167,26 @@
         <h3 class="form-heading">Property Sale Information</h3>
         <div class="form-group">
           <label for="sale_date">Sale Date</label>
-          <input name="sale_date" type="date" class="form-control" id="sale_date" value="" placeholder="enter month, day and year">
+          <input name="Sale Date type="date" class="form-control" id="sale_date" value="" placeholder="enter month, day and year">
         </div>
         <div class="form-group">
           <label for="sale_price">Original Sale Price</label>
-          <input name="sale_price" type="text" class="form-control" id="sale_price" value="" placeholder="enter dollar amount" autocomplete="on">
+          <input name="Sale Price" type="text" class="form-control" id="sale_price" value="" placeholder="enter dollar amount" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="cashdown">Cash Down Payment</label>
-          <input name="cashdown" type="text" class="form-control" id="cashdown" value="" placeholder="enter dollar amount" autocomplete="on">
+          <input name="Cash Down Payment" type="text" class="form-control" id="cashdown" value="" placeholder="enter dollar amount" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="original_amt">Original Loan Amount</label>
-          <input name="original_amt" type="text" class="form-control" id="original_amt" value="" placeholder="enter dollar amount" autocomplete="on">
+          <input name="Original Load Amount" type="text" class="form-control" id="original_amt" value="" placeholder="enter dollar amount" autocomplete="on">
         </div>
       </fieldset>
       <fieldset id="financing_info">
         <h3 class="form-heading">Financing Information</h3>
         <div class="form-group">
                     <label for="security_type">Security Instrument Type</label>
-          <select name="security_type" id="security_type" class="form-control">
+          <select name="Security Instrument type" id="security_type" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Mortgage"> Mortgage </option>
                         <option value="Trust Deed"> Trust Deed </option>
@@ -195,35 +198,35 @@
         </div>
         <div class="form-group">
           <label for="date_note">Date of Note</label>
-          <input name="date_note" type="date" class="form-control" id="date_note" value="" placeholder="enter month, day and year">
+          <input name="Date of Note" type="date" class="form-control" id="date_note" value="" placeholder="enter month, day and year">
         </div>
         <div class="form-group">
           <label for="interest">Interest Rate</label>
-          <input name="interest" type="text" class="form-control" id="interest" value="" placeholder="enter the interest rate" autocomplete="on">
+          <input name="Interest Rate" type="text" class="form-control" id="interest" value="" placeholder="enter the interest rate" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="note_term">Note Term / # of Years</label>
-          <input name="note_term" type="text" class="form-control" id="note_term" value="" placeholder="number of note payments" autocomplete="on">
+          <input name="Note Term" type="text" class="form-control" id="note_term" value="" placeholder="number of note payments" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="payment">Note Payment</label>
-          <input name="payment" type="text" class="form-control" id="payment" value="" placeholder="enter dollar amount" autocomplete="on">
+          <input name="Note Payment" type="text" class="form-control" id="payment" value="" placeholder="enter dollar amount" autocomplete="on">
         </div>
         <div class="form-group">
           <label for="date_first">First Payment Date</label>
-          <input name="date_first" type="date" class="form-control" id="date_first" value="" placeholder="enter month, day and year">
+          <input name="First Payment Date" type="date" class="form-control" id="date_first" value="" placeholder="enter month, day and year">
         </div>
         <div class="form-group">
           <label for="date_last">Last Payment Received</label>
-          <input name="date_last" type="date" class="form-control" id="date_last" value="" placeholder="enter month, day and year">
+          <input name="Last Payment Received" type="date" class="form-control" id="date_last" value="" placeholder="enter month, day and year">
         </div>
         <div class="form-group">
           <label for="balance">Current Note Balance</label>
-          <input name="balance" type="text" class="form-control" id="balance" value="" placeholder="enter dollar amount" autocomplete="on">
+          <input name="Current Note Balance" type="text" class="form-control" id="balance" value="" placeholder="enter dollar amount" autocomplete="on">
         </div>
         <div class="form-group">
                     <label for="borrower">The Borrower is a</label>
-          <select name="borrower" id="borrower" class="form-control">
+          <select name="Borrower" id="borrower" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Natural Person(s)"> Natural Person(s) </option>
                         <option value="Corporation/LLC"> Corporation/LLC </option>
@@ -233,7 +236,7 @@
         </div>
         <div class="form-group">
                     <label for="current">Is the Note Current?</label>
-          <select name="current" id="current" class="form-control">
+          <select name="Is Note Current" id="current" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Yes, always current"> Yes, always current </option>
                         <option value="Yes, but not always current"> Yes, but not always current </option>
@@ -242,7 +245,7 @@
         </div>
         <div class="form-group">
                     <label for="late"># of Late Payments Received</label>
-          <select name="late" id="late" class="form-control">
+          <select name="Number of Late Payments" id="late" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="None"> None </option>
                         <option value="One"> One </option>
@@ -252,7 +255,7 @@
         </div>
         <div class="form-group">
                     <label for="balloon">Is There a Balloon Payment Due?</label>
-          <select name="balloon" id="balloon" class="form-control">
+          <select name="Is there a Balloon Payment Due?" id="balloon" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Yes"> Yes </option>
                         <option value="No"> No </option>
@@ -260,7 +263,7 @@
         </div>
         <div class="form-group">
           <label for="ball_due">Balloon Payment Due Date</label>
-          <input name="ball_due" type="date" class="form-control" id="ball_due" value="" placeholder="enter month, day and year">
+          <input name="Balloon Payment Due date" type="date" class="form-control" id="ball_due" value="" placeholder="enter month, day and year">
         </div>
         <div class="form-group">
           <label for="ball_amt">Balloon Payment Amount</label>
@@ -271,7 +274,7 @@
         <h3 class="form-heading">Additional Information</h3>
         <div class="form-group">
                     <label for="credit_score">Anticipated Borrower Credit Score</label>
-          <select name="credit_score" id="credit_score" class="form-control">
+          <select name="Credit Card Score" id="credit_score" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Excellent - score of 700 plus"> Excellent - score of 700 plus </option>
                         <option value="Good - score of 625 plus"> Good - score of 625 plus </option>
@@ -282,7 +285,7 @@
         </div>
         <div class="form-group">
                     <label for="insurance">Lender's Policy of Title Insurance?</label>
-          <select name="insurance" id="insurance" class="form-control">
+          <select name="Title Insurance" id="insurance" class="form-control">
                         <option value="Select..."> Select... </option>
                         <option value="Yes"> Yes </option>
                         <option value="No"> No </option>
@@ -291,16 +294,10 @@
         </div>
         <div class="form-group">
           <label for="comments">Additional Comments</label>
-          <textarea name="comments" class="form-control" id="comments" rows="3" autocomplete="on"></textarea>
+          <textarea name="Additional Comments" class="form-control" id="comments" rows="3" autocomplete="on"></textarea>
         </div>
       </fieldset>
       <fieldset>
-        <div class="form-group"> <br>
-          <img class="captcha" src="/securimage/securimage_show.php" alt="CAPTCHA Image" id="captcha"> &nbsp; <a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false"> Reload Image</a> <br>
-          <br>
-          <label for="captcha_code">Type code shown above for verification</label>
-          <input name="captcha_code" id="captcha_code" type="text" class="form-control" autocomplete="off" required="">
-        </div>
         <input name="send" id="send" type="submit" value="Submit" class="btn btn-primary center-block">
         <br>
       </fieldset>
